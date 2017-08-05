@@ -18,8 +18,8 @@ def neighbors(xy, WIDTH, HEIGHT, pixels):
     return ret
 
 def main():
-    WIDTH = 256
-    HEIGHT = 128
+    WIDTH = 512
+    HEIGHT = 512
     NUMPIXELS = WIDTH * HEIGHT
     NUMCOLORS = 0
     for guess in xrange(1000):
